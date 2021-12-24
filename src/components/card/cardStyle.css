@@ -1,0 +1,41 @@
+.card{
+    margin: 0 auto;
+    width: 300px;
+    min-height: 300px;
+    background: #e8eaf6;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.cardImg{
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cardFields{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    font-weight: bold;
+
+
+
+}
+.cardFields span {
+    margin: 0;
+    padding: 5px;
+    max-height: 100%;
+    text-align:justify;
+    
+}
